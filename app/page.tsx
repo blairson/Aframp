@@ -34,8 +34,8 @@ export const metadata = {
 }
 
 // Single, theme-aware landing page (light and dark both live here via
-// `dark:` classes) — the previous dark-only variant under
-// `components/landing/` was unused and has been removed.
+// `dark:` classes), built from `components/landing-light/`. The old dark-only
+// variant under `components/landing/` has been deleted.
 export default function Home() {
   return (
     <div className="font-brand bg-white dark:bg-surface">
